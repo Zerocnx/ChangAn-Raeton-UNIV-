@@ -59,11 +59,10 @@
     #安装C盘新软件到system/app(软件名不能中文)
     adb reboot #重启车机
 ```
-#五、图片
-Carlink  oppo（目前测试只有USB，全屏）
-
-
-百度carlife（USB跟wifi都可以，不是全屏）
-
-
-重启后桌面显示第三方软件
+# 五、图片
+### Carlink  oppo（目前测试只有USB，全屏）
+![eb91283bfc196f98d978dfbc9912e62e_thum-5dfe1678341575](https://user-images.githubusercontent.com/32184355/224259753-9fa12570-412e-4d02-aa2d-d41873c5e878.png)
+### 百度carlife（USB跟wifi都可以，不是全屏）
+![f5aba015467941869151be84dc68a55d_thum-2d801678341605](https://user-images.githubusercontent.com/32184355/224259831-5ee9e366-d55f-4607-9204-cb69c4443d00.png)
+### 重启后桌面显示第三方软件
+![081d760643a6897be6df6af3c6fdad33_thum-c4fd1678341638](https://user-images.githubusercontent.com/32184355/224259884-814b0707-1979-4bd8-87b4-1b0bea49c3b5.png)
