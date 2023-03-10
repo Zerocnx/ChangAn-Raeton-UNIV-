@@ -27,7 +27,7 @@
     exit  #退出shell模式
     adb push *.apk /system/app #上传apk文件到车机系统目录
     abd reboot #重启车机
-	```
+```
 .apk文件放在adb的目录下，可以少输一点命令
  记得安装完后要把usb模式切换成u盘模式
 
