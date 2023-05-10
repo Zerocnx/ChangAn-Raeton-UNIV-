@@ -16,7 +16,7 @@
 
 > 易语言adb工具源码原作者：@Lc_Rose
 
-> Cs55plus 贴吧破解思路作者：@时距曲线
+> Cs55plus 贴吧破解思路作者：@时距曲线 帖子：https://tieba.baidu.com/p/7744288073
 
 > 自动解压apk思路：@长安小雕雕
 
@@ -39,10 +39,13 @@ ADB工具箱（百度）
 
 ![image](https://github.com/Zerocnx/ChangAn-Raeton-UNIV-/assets/32184355/5b639cf4-2a8c-40f9-b5e5-c730b59cf6ba)
 
+
 然后 打开 原生 系统设置界面
+
 ![image](https://github.com/Zerocnx/ChangAn-Raeton-UNIV-/assets/32184355/8cf4c56f-c34f-4277-95e8-359adaff3cb3)
 
 最下面，狂点版本号，提示“已经是开发者调试模式"后按右上角的放大镜图标返回上级
+
 ![image](https://github.com/Zerocnx/ChangAn-Raeton-UNIV-/assets/32184355/b512c38a-6b4a-413f-b153-1b8524922402)
 
 高级设置，下面的“开发者选项”，找到USB调试，打开
@@ -117,6 +120,7 @@ adb reboot #重启车机
 如图：
 
 ![image](https://github.com/Zerocnx/ChangAn-Raeton-UNIV-/assets/32184355/07e4041c-aafe-44e5-9482-684e6a0b6049)
+
 ##### 5、替换原厂高德\其它第三方软件
 
 ```shell
