@@ -35,17 +35,21 @@ ADB工具箱（百度）
 拨号 *#*#888 密码：369875（不同车型不一样，具体百度）
 工程模式，切换usb为adb模式(用完adb记得切换为U盘模式)
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml17048\wps1.png) 
+![image](https://github.com/Zerocnx/ChangAn-Raeton-UNIV-/assets/32184355/ad0adf00-dfbd-4333-8a0a-aa16159f5f26)
+
+![image](https://github.com/Zerocnx/ChangAn-Raeton-UNIV-/assets/32184355/5b639cf4-2a8c-40f9-b5e5-c730b59cf6ba)
 
 然后 打开 原生 系统设置界面
+![image](https://github.com/Zerocnx/ChangAn-Raeton-UNIV-/assets/32184355/8cf4c56f-c34f-4277-95e8-359adaff3cb3)
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml17048\wps2.png)
 最下面，狂点版本号，提示“已经是开发者调试模式"后按右上角的放大镜图标返回上级
+![image](https://github.com/Zerocnx/ChangAn-Raeton-UNIV-/assets/32184355/b512c38a-6b4a-413f-b153-1b8524922402)
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml17048\wps3.png)
 高级设置，下面的“开发者选项”，找到USB调试，打开
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml17048\wps4.png) 
+![image](https://github.com/Zerocnx/ChangAn-Raeton-UNIV-/assets/32184355/6e4104f2-0751-49ad-807d-c15180f8cbbd)
+
+      
 
 ###  安装流程
 
@@ -59,7 +63,8 @@ adb devices   #查看设备列表
 
 返回的如图才算读取到车机，不过不是说明有问题，请检查上面的步骤。
 
-![image-20230510111131109](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230510111131109.png)
+![image](https://github.com/Zerocnx/ChangAn-Raeton-UNIV-/assets/32184355/610f7957-7625-4552-9bfe-48db18cdfcbb)
+
 
 ##### 2、解除车机分区验证
 
@@ -73,7 +78,8 @@ adb  reboot      #重启车机
 
 如下图提示为成功，
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml17048\wps5.jpg)
+![image](https://github.com/Zerocnx/ChangAn-Raeton-UNIV-/assets/32184355/8261c991-e455-4012-9533-f037bf996950)
+
 
 ##### 3、删除\VecentekApp.apk  （decore保护软件）
 
@@ -95,7 +101,8 @@ adb  reboot    #重启车机
 
 如下图：
 
-![image-20230510111432090](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230510111432090.png)
+![image](https://github.com/Zerocnx/ChangAn-Raeton-UNIV-/assets/32184355/ddf97f68-0a8c-42b4-b26c-cfa65c372f5b)
+
 
 ##### 4、安装APP - 普通安装
 
@@ -109,8 +116,7 @@ adb reboot #重启车机
 
 如图：
 
-![image-20230510111701666](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230510111701666.png)
-
+![image](https://github.com/Zerocnx/ChangAn-Raeton-UNIV-/assets/32184355/07e4041c-aafe-44e5-9482-684e6a0b6049)
 ##### 5、替换原厂高德\其它第三方软件
 
 ```shell
@@ -137,7 +143,7 @@ adb reboot #重启车机
 
 如图：
 
-![image-20230510112540191](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230510112540191.png)
+![image](https://github.com/Zerocnx/ChangAn-Raeton-UNIV-/assets/32184355/406ad750-c8a4-49b9-bf77-a40b96bc60cc)
 
 ##### 6、如何解压APK的lib
 
@@ -151,40 +157,38 @@ adb reboot #重启车机
 #这里使用替换原厂高德为例子，所以我创建的文件夹名称为AutoNavi
 ```
 
-![image-20230510113825544](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230510113825544.png)
+![image](https://github.com/Zerocnx/ChangAn-Raeton-UNIV-/assets/32184355/669524c7-206f-40a9-94be-11dbd33b34b1)
 
 > 2、下载公版的高德车机版（百度可下载），然后放到刚刚创建的AutoNavi文件夹中，并改名为AutoNavi.apk
 
 这是下载好的
 
-![image-20230510114015919](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230510114015919.png)
+![image](https://github.com/Zerocnx/ChangAn-Raeton-UNIV-/assets/32184355/466cc5b9-793c-46b4-bfbc-07606ce4b768)
 
 然后改名为AutoNavi
 
-![image-20230510114041540](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230510114041540.png)
+![image](https://github.com/Zerocnx/ChangAn-Raeton-UNIV-/assets/32184355/ec02e1a2-4d16-4803-9080-95e43cf03768)
 
 用解压软件打开这个APK文件，找到LIB文件夹，解压到文件中
 
-![image-20230510114123852](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230510114123852.png)
+![image](https://github.com/Zerocnx/ChangAn-Raeton-UNIV-/assets/32184355/be177c54-b366-4841-af84-3dbe29da6f49)
 
 
-
-![image-20230510114146674](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230510114146674.png)
+![image](https://github.com/Zerocnx/ChangAn-Raeton-UNIV-/assets/32184355/0d387e06-269e-4158-851b-2580b767c5b8)
 
 然后进入lib文件夹，把里面armeabi-v7a  改成 arm
 
-![image-20230510114227513](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230510114227513.png)
+![image](https://github.com/Zerocnx/ChangAn-Raeton-UNIV-/assets/32184355/fa777d14-a372-470e-84ef-30c52d02d8be)
 
-![image-20230510114255193](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230510114255193.png)
+![image](https://github.com/Zerocnx/ChangAn-Raeton-UNIV-/assets/32184355/2a235b7a-f5b3-4aae-a3f6-de35955de1d8)
 
 完整目录如下
 
-![image-20230510114335901](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230510114335901.png)
+![image](https://github.com/Zerocnx/ChangAn-Raeton-UNIV-/assets/32184355/4990367a-af8c-4fdd-ab64-7939205fbf28)      
 
 然后打开cmd执行adb工具，地址栏输入CMD，然后直接回车即可
 
-![image-20230510114420471](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230510114420471.png)
-
+![image](https://github.com/Zerocnx/ChangAn-Raeton-UNIV-/assets/32184355/cbb0015d-71cf-441b-b703-9442cbccfcc7)
 ```shell
 #执行以下命令
 adb root #获取权限
