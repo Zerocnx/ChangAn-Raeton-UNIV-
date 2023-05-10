@@ -11,6 +11,7 @@
 > 不收费啊 都是免费
 > 不收费啊 都是免费
 > 工具箱之前都一直是免费，包括远程调试，3月份跟着55贴吧的教程研究出来教程，然后不完美破解可以了，然后都太多了开始写了第一版工具箱，后面找到一个adb工具箱的e语言源码，然后就更新了，一直也是免费，这里分享思路跟命令。然后可以写成bat文件，直接运行即可
+> 没有应用商店只能通过第三方桌面或者EasyTouch打开，然后unit有几个年份的不能装第三方桌面，会卡开机，但是锁车熄火等断电了重新启动进shell删除掉第三方桌面就行了
 
 ### 思路 - 感谢以下作者分享出来的思路
 
@@ -286,6 +287,9 @@ goto MENU
 
 rem:删除功能
 :un
+TIMEOUT /T 3
+adb remount
+TIMEOUT /T 3
 set /p cc=要删除的文件夹名称：
 echo adb36987|adb shell rm -rf /system/app/%cc%
 echo %cc%卸载成功，请重启车机
@@ -293,6 +297,9 @@ goto MNEU
 
 rem:修复桌面没有图标，仅支持有应用商店的车机，要在应用商店随便下个app
 :ico
+TIMEOUT /T 3
+adb remount
+TIMEOUT /T 3
 ser /p ii=要修复图标的app名称(英文):
 echo adb36987|adb shell mv /system/app/%ii%/%ii%.apk /system/app/
 echo 第一步修复完成！
